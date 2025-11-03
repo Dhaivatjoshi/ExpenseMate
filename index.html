@@ -23,10 +23,19 @@
 
             <div id="paymentSection" class="hidden">
                 <h3>Remaining: <span id="remainingAmount">€0.00</span></h3>
+
+                <!-- Add/Remove People controls -->
+                <div class="add-person-row">
+                    <input type="text" id="newPersonName" placeholder="Add person (name)">
+                    <button id="addPersonBtn" type="button">Add</button>
+                </div>
+
                 <input type="number" id="paidAmount" placeholder="Enter amount (€)" min="0" step="0.01">
                 <div class="person-list" id="personList"></div>
+
                 <button id="submitPayment">Record Payment</button>
                 <p id="errorMessage" class="error"></p>
+
                 <button id="undoAction">Undo</button>
                 <button id="redoAction">Redo</button>
                 <button id="resetAll">Reset All</button>
