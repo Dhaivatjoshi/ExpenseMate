@@ -9,6 +9,8 @@ We built this project because we faced problems splitting our bill in Splitwise.
 - Calculate and display the remaining balance.
 - Show transactions in a table.
 - Display final amount owed by each person.
+- Delete individual transactions.
+- Undo or redo recent changes.
 - Reset all data for a new bill.
 
 ## Technologies Used
@@ -25,7 +27,15 @@ We built this project because we faced problems splitting our bill in Splitwise.
    ```sh
    cd bill-splitter
    ```
-3. Open `index.html` in a browser.
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
+4. Run the test suite:
+   ```sh
+   npm test
+   ```
+5. Open `index.html` in a browser.
 
 Or use this URL [apurva01singh.github.io/bill-splitter](https://apurva01singh.github.io/bill-splitter)
 
@@ -36,8 +46,14 @@ Or use this URL [apurva01singh.github.io/bill-splitter](https://apurva01singh.gi
 4. See the final split amounts owed by each person.
 5. Click "Reset All" to start a new session.
 
+## Running Tests
+After installing dependencies, run:
+```sh
+npm test
+```
+
 ## Future Enhancements
-- **Add dynamic add and remove friend feature.**
+- **Add dynamic add/remove friend feature.**
 - **Add a Share button to share the final bill split to Splitwise.**
   - Since this project doesn't have a database, this will make it easy to maintain.
   - We will share this bill using the Splitwise API.
