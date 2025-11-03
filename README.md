@@ -37,7 +37,7 @@ We built this project because we faced problems splitting our bill in Splitwise.
    ```
 5. Open `index.html` in a browser.
 
-Or use this URL [apurva01singh.github.io/bill-splitter](https://apurva01singh.github.io/bill-splitter)
+Or use this URL [dhaivatjoshi.github.io/ExpenseMate/]([https://dhaivatjoshi.github.io/ExpenseMate/])
 
 ## Usage
 1. Enter the total bill amount and click "Set Bill."
